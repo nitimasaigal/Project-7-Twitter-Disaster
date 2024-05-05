@@ -1,0 +1,9 @@
+python 3.11.5
+pandas
+numpy
+matplotlib
+seaborn
+request
+json
+CountVectorizer
+sklearn
