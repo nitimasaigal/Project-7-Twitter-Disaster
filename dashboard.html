@@ -1,0 +1,67 @@
+<!-- dashboard.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            background-color: #333;  /* Set dark gray background color */
+            color: white;  /* Set text color to white */
+        }
+        /* CSS styles for layout */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .word-cloud {
+            flex: 1;
+            padding: 20px;
+        }
+        .prediction-section {
+            flex: 1;
+            padding: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Welcome to my Twitter Dashboard</h1>
+    
+    <div class="container">
+        <!-- Word Cloud -->
+        <div class="word-cloud">
+            <h2>Tokenized Word Cloud</h2>
+            <img src="{{ url_for('static', filename='wordcloud.png') }}" alt="Word Cloud">
+        </div>
+
+        <!-- Prediction Section -->
+        <div class="prediction-section">
+            <h2>Enter Text for Prediction:</h2>
+            <form action="/predict" method="post">
+                <label for="text">Enter text:</label>
+                <input type="text" id="text" name="text" placeholder="Type text here...">
+                <button type="submit">Predict</button>
+            </form>
+
+            <!-- Prediction Result -->
+            {% if prediction %}
+            <h2>Prediction Result:</h2>
+            {% if prediction == "1" %}
+            <p>IT IS A DISASTER</p>
+            {% elif prediction == "0" %}
+            <p>IT IS NOT A DISASTER</p>
+            {% endif %}
+            {% endif %}
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+
