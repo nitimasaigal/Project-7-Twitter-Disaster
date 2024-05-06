@@ -15,19 +15,49 @@ Wordcloud etc.
 
 __Project Structure__
 The project is structured as follows:
+
 |--app/
-| |--static/
+
+| |--static/ 
+
+| | |--wordcloud.png
+
 | |--templates/
+
 | | |--base.html
+
 | | |--dashboard.html
+
 | | |--error.html
+
 | | |--prediction.html
+
 | | |--wordcloud.html
+
 | |--app.py
+
 | |--requests.py
+
 | |--requirements.txt
+
 | |--mylogisticmodel.joblib
-|--flask dashboard for twitter disaster pdf
+
+| |--vectorizer.joblib
+
+|--flask dashboard for twitter disaster.pdf
+
 |--final_df_for_dashboard.csv
+
+
+|--Project Solution Task 1.ipynb
+
+|--Project Solution Task 2.ipynb
+
+|--Project Solution Task 3.ipynb
+
+
+|--README.md
+
+|--Twitter Disaster.pdf
 
 
