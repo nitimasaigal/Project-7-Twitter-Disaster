@@ -65,7 +65,7 @@ The project is structured as follows:
 
 __Training the Model__
 
-4 models have been trained..Random Forest Classifier, Logistic Regression, Support Vector and Neural Network but Logistic Regression Model has the highest accuracy. So this model only has been used for making Flask Dashboard.
+4 models have been trained..Random Forest Classifier, Logistic Regression, Support Vector and Neural Network but __Logistic Regression Model__ has the highest accuracy. So this model only has been used for making Flask Dashboard.
 
 __Running the Web App__
 
@@ -73,13 +73,17 @@ Navigate to the app/directory and it can be run by running the app.py(python fil
 
 This is the link for [Twitter Dashboard](http://127.0.0.1:5000/)
 
+__Relationship between all the features and target__
+
 correlation between all the features which have been created and the Target is as follows:
 ![image](https://github.com/nitimasaigal/Project-7-Twitter-Disaster/assets/146649752/c90ca536-3367-4e2f-90e7-4fcf8296bce0)
 
 __Credits/Acknowledgements__
+
 All credit goes to Shweta Mam for this project
 
 __Contact Information__
+
 Nitima Saigal
 
 
