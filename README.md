@@ -73,6 +73,10 @@ Navigate to the app/directory and it can be run by running the app.py(python fil
 
 This is the link for [Twitter Dashboard](http://127.0.0.1:5000/)
 
+correlation between all the features which have been created and the Target is as follows:
+![image](https://github.com/nitimasaigal/Project-7-Twitter-Disaster/assets/146649752/c90ca536-3367-4e2f-90e7-4fcf8296bce0)
+
+
 
 
 
