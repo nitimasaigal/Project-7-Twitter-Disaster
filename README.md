@@ -20,20 +20,31 @@ __Project Structure__
 The project is structured as follows:
 
 |--app/
+
 | |--static/ 
+
 | | |--wordcloud.png
 
 | |--templates/
+
 | | |--base.html
+
 | | |--dashboard.html
+
 | | |--error.html
+
 | | |--prediction.html
+
 | | |--wordcloud.html
 
 | |--app.py
+
 | |--requests.py
+
 | |--requirements.txt
+
 | |--mylogisticmodel.joblib
+
 | |--vectorizer.joblib
 
 |--flask dashboard for twitter disaster.pdf
@@ -41,7 +52,9 @@ The project is structured as follows:
 |--final_df_for_dashboard.csv
 
 |--Project Solution Task 1.ipynb
+
 |--Project Solution Task 2.ipynb
+
 |--Project Solution Task 3.ipynb
 
 |--README.md
