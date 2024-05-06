@@ -63,7 +63,7 @@ The project is structured as follows:
 
 __Training the Model__
 
-4 models have been trained..Random Forest Classifier, Logistic Regression, Support Vector and Neural Network but __Logistic Regression Model__ has the highest accuracy. So this model only has been used for making Flask Dashboard.
+Four models have been trained..Random Forest Classifier, Logistic Regression, Support Vector and Neural Network but __Logistic Regression Model__ has the highest accuracy. So this model only has been used for making Flask Dashboard.
 
 __Running the Web App__
 
